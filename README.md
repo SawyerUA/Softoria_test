@@ -1,25 +1,37 @@
 # Softoria Test
 
 Простий веб-застосунок для перевірки рангу сайту.
+Simple web-application for website rank checking.
 
-## Як запустити локально
+## How to start localy / Як запустити локально
 
-1. Склонуйте репозиторій:
+1. Clone repository / Склонуйте репозиторій:
 ```bash
 git clone https://github.com/SawyerUA/Softoria_test.git
+```
 
-2. Переходимо в каталог проекту
+2. Move to project catalog / Переходимо в каталог проекту
+```
 cd Softoria_test
+```
 
-3. Встановлюємо залежності Composer
+3. Installing dependencies / Встановлюємо залежності Composer
+```
 composer install
+```
 
-4. Файл .env.example перейменовуємо в .env і додаємо 2 строки:
+4. Rename .env.example to .env and add 2 lines / Файл .env.example перейменовуємо в .env і додаємо 2 строки:
+```
 DATAFORSEO_LOGIN=ваш_API_email
 DATAFORSEO_PASSWORD=ваш_API_password
+```
 
-5. Запускаємо локальний сервер командоню
+5. Run local server / Запускаємо локальний сервер командоню
+```
 php artisan serve
+```
 
-6. Переходимо за посиланням або прописуємо в url адресі
+6. Visit link or enter into url / Переходимо за посиланням або прописуємо в url адресі
+```
 http://127.0.0.1:8000
+```
