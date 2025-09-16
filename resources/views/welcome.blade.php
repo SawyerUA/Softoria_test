@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn btn-primary">Search</button>
+                    <button type="submit" class="btn btn-primary">Пошук</button>
                 </div>
             </form>
         </div>
@@ -133,7 +133,7 @@
         function apiRequest(){
 
             Swal.fire({
-                title: 'Зачекайте, сбір данних...',
+                title: 'Зачекайте, збір данних...',
                 allowOutsideClick: false,
                 didOpen: () => {
                     Swal.showLoading();
